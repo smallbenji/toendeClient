@@ -1,4 +1,4 @@
-const socket = new WebSocket('wss://toende.herokuapp.com:44760');
+const socket = new WebSocket('wss://toende.herokuapp.com:54217');
 
 socket.addEventListener('message', function (event) {
     console.log(event.data);
